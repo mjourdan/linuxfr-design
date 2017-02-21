@@ -38,14 +38,17 @@ Sites d'actualités technique :
 - https://arstechnica.com/
 - https://www.nextinpact.com/ 
 
-Journaux divers :
+Presse :
 - https://www.mediapart.fr/
 - http://www.monde-diplomatique.fr/
 - http://www.lefigaro.fr/
-- http://www.hacking-social.com/
-- https://medium.com/swlh/building-the-ui-for-the-new-the-times-website-26dc4e6569e#.o0qxabqxr
+- http://www.thetimes.co.uk/ [article](https://medium.com/swlh/building-the-ui-for-the-new-the-times-website-26dc4e6569e#.o0qxabqxr)
+- http://www.newyorker.com/
+- https://www.nytimes.com/
 
-Agrégateurs :
+Blogs & agrégateurs :
+- http://www.hacking-social.com/
+- https://medium.com/matter
 - https://getpocket.com/explore/ux%20design
 
 Éditeurs de texte :
@@ -54,7 +57,19 @@ Agrégateurs :
 - http://www.hemingwayapp.com/
 - https://gingkoapp.com/
 
+Revue
+-----
+
+Quelques observations sur l'actuelle version du site se trouvent sous le dossier revue.
 
 Tentatives
 ----------
+
+### Expérimentation 1
+
+La première expérimentation conserve la simplicité de la page de dépêches (une liste verticale), et met en avant les journaux en page d'accueil. Les utilisateurs authentifiés sont invités à participer aux rédactions collaboratives.
+
+La page de rédaction collaborative doit encourager les potentiels rédacteurs à contribuer en priorité aux articles les plus avancés et ceux dont la date butoir est la plus proche.
+
+La navigation se fait au moyen d'un bandeau en 2 niveaux.
 
