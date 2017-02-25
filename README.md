@@ -73,3 +73,7 @@ La page de rédaction collaborative doit encourager les potentiels rédacteurs �
 
 La navigation se fait au moyen d'un bandeau en 2 niveaux.
 
+### Expérimentation 2
+
+On reprend certains codes de la presse papier pour annoncer la couleur : sur linuxfr, l'info est sérieuse et de qualité. On allège l'ensemble de la page d'accueil (moins d'illustrations, retrait des licences et notes des articles) ainsi que le bandeau de navigation. On s'éloigne d'un simple fil d'actualité en groupant les contenus par thème.
+
