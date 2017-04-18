@@ -77,3 +77,6 @@ La navigation se fait au moyen d'un bandeau en 2 niveaux.
 
 On reprend certains codes de la presse papier pour annoncer la couleur : sur linuxfr, l'info est sérieuse et de qualité. On allège l'ensemble de la page d'accueil (moins d'illustrations, retrait des licences et notes des articles) ainsi que le bandeau de navigation. On s'éloigne d'un simple fil d'actualité en groupant les contenus par thème.
 
+### Expérimentation 3
+
+On travaille une version mobile pour s'aider à hiérarchiser l'information, on organise le flux de navigation, on élabore une palette de couleurs. On intègre les remarques formulées sur le site.
