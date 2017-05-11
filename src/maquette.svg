@@ -1647,10 +1647,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.65667305"
-     inkscape:cx="741.81802"
-     inkscape:cy="160.94238"
+     inkscape:cx="1810.0817"
+     inkscape:cy="282.76861"
      inkscape:document-units="px"
-     inkscape:current-layer="g6878"
+     inkscape:current-layer="g8033"
      showgrid="false"
      units="px"
      inkscape:window-width="1920"
@@ -17826,7 +17826,7 @@
        inkscape:groupmode="layer"
        id="layer7"
        inkscape:label="mobile-flux"
-       style="display:none">
+       style="display:inline">
       <g
          id="g13971"
          transform="translate(137.98029)"
@@ -28519,7 +28519,7 @@
        inkscape:groupmode="layer"
        id="layer9"
        inkscape:label="mobile-2.1.1-dépêche"
-       style="display:inline">
+       style="display:none">
       <rect
          style="display:inline;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:1.00757885;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect2994-2-4-1-8"
@@ -29865,7 +29865,7 @@
      inkscape:groupmode="layer"
      id="layer14"
      inkscape:label="bureau"
-     style="display:inline">
+     style="display:none">
     <g
        style="display:inline"
        inkscape:label="10.0_tableau_de_bord"
@@ -35322,7 +35322,7 @@
     </g>
     <g
        style="display:none"
-       inkscape:label="2.1_depeche"
+       inkscape:label="3.1_depeche"
        id="g8033"
        inkscape:groupmode="layer">
       <rect
