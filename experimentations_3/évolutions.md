@@ -81,7 +81,26 @@ Dans les discussions, ça peut être intéressant de mettre en valeur les interv
 Agenda
 ------
 
-Les évènements donnant l'occasion de rassembler les différentes communautés sont suffisament importants pour justifier la création d'une section dédiée. Dans cette section, les visiteurs pourront retrouver instantanément les prochains évènements prévus près de chez eux, et visualiser leur emplacement sur une carte.
+Les évènements donnant l'occasion de rassembler les différentes communautés sont suffisament importants pour justifier la création d'une section dédiée. Actuellement, linuxfr.org relaie chaque semaine les évènements publiés dans l'agendadulibre.org. D'autres évènements peuvent également être annoncés via la procédure habituelle de publication (et de modération).
+
+Dans cette section, les visiteurs pourront :
+
+- retrouver instantanément les prochains évènements prévus près de chez eux
+- visualiser les emplacements des évènements sur une carte
+
+Dans cette section, on pensait d'abord afficher les ressources de l'Agenda du Libre en plus de celles propres à LinuxFr. Gérer plusieurs sources de données dans le cas présent semble ajouter de la complexité sans ajouter de valeur. Au contraire, il serait intéressant que les évènements annoncés sur linuxfr.org soient remontés à l'Agenda du Libre. Il semblerait plus intéressant de se servir de l'Agenda du Libre comme unique source d'évènements.
+
+On ne sait pas dans quelle mesure l'intégration à l'Agenda du Libre est faisable techniquement (API ? transfert de fichiers .ics ?). Politiquement, cela n'est pas évident non plus. D'une part parce que nous n'avons pas trouvé de licence concernant les données de l'agendadulibre.org. D'autre part, les deux sites ont chacun leur propre politique de modération appliquée par des personnes différentes.
+
+Idéalement, proposer un nouvel évènement serait possible directement depuis LinuxFr, ou bien nous redirigerions vers le site de l'Agenda du Libre. Les bénéfices attendus sont les suivants :
+- les visiteurs de linuxfr auraient accès à un agenda du libre lisible et fonctionnel
+- l'agenda et son filtre géographique seraient une raison supplémentaire de créer un compte sur linuxfr
+- l'agenda du libre bénéficierait automatiquement des évènements remontés par linuxfr (sur lequel linuxfr n'effectuerait aucune modération)
+
+
+TODO :
+- suggérer à l'agendadulibre.org de diffuser ses données sous licence odbl ?
+- faisabilité ?
 
 
 Style
@@ -101,9 +120,12 @@ Pistes de réflexion
 
 Pour les nouveaux venus, c'est pas évident de comprendre qu'on peut publier directement un journal d'une part, mais que la publication de dépêche est soumise à modération d'autre part. Distinguer 4 phases : rédaction -> relecture -> modération -> publication ? On ne veut pas non plus donner une impression de lourdeur.
 
-Intégration à d'autres sites, en particulier au Journal du Hacker ?
-https://www.journalduhacker.net/
+Intégration à d'autres sites, en particulier :
+
+- [Journal du Hacker](https://www.journalduhacker.net/)
+- [Agenda du Libre](http://www.agendadulibre.org/)
 
 Changer la notation des commentaires, pour aller vers un système à la Slashdot ? (All Insightful Informative Interesting Funny) ?
 
 Souhaite-t-on vraiment refondre les sections et non pas juste les mettre à la poubelle, si on a les tags ?
+
