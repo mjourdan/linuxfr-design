@@ -3,6 +3,7 @@
 
 Ce fichier récapitule les principales évolutions envisagées par rapport à la version actuelle du site.
 
+
 Concepts généraux
 -----------------
 
@@ -28,6 +29,10 @@ Les tags servent à identifier les différentes thématiques abordées par un m�
 
 Sur la terminologie, on trouve que le mot « journaux », utilisé actuellement, prête à confusion avec les « dépêches » : pour les non habitués, il n'est pas évident qu'il s'agit de journaux personnels. On pense qu'il est plus évocateur de parler de « blogs », sur lesquels les auteurs peuvent publier des « billets ».
 
+### Salons
+
+Encore une question de terminologie. Le mot « tribune », qui suggère une communication à l'attention d'une foule, semblerait plus approprié pour qualifier un billet de blog qu'un canal de messagerie instantannée. C'est pourquoi on préfèrera ici parler de « salons ».
+
 
 Page d'accueil
 --------------
@@ -40,6 +45,7 @@ Un problème que l'on a actuellement est que lorsqu'un journal est promu en dép
 
 Comme c'est une information secondaire, on déporte la liste des sites amis vers une page dédiée. Par contre on peut profiter de cette nouvelle page pour mettre en valeur les liens en y associant une brève présentation des sites, et dire en quoi ils sont amis avec LinuxFr.
 
+
 Espace de rédaction
 -------------------
 
@@ -51,9 +57,9 @@ Espace de rédaction
 
 Tous les titres des articles en cours sont sur une colonne, pour éviter que nos infographistes préférés fassent des zigzag avec les yeux.
 
-### Tribune
+### Salon
 
-J'ai remis les norloges pour défroisser les vieilles moules. Pour les êtres humains normaux, j'ai accompagné la norloge d'un bouton répondre. Il faut encore élaborer ce à quoi ça doit ressembler quand on utilise cette fonctionnalité justement. Un problème avec mon dessin c'est que le champ de saisie de texte est relativement court.
+J'ai remis les norloges pour défroisser les vieilles moules. Pour les êtres humains normaux, j'ai accompagné la norloge d'un bouton répondre. Il faut encore élaborer ce à quoi ça doit ressembler quand on utilise cette fonctionnalité justement. Pour que la faible largeur de la colonne ne soit pas trop limitante, le champ de saisie de texte s'allonge verticalement au fur-et-à-mesure qu'il est rempli.
 
 ### Règles de modération
 
@@ -78,6 +84,20 @@ Lorsqu'un article contient des coquilles, c'est souvent qu'on voit toute une sé
 Dans les discussions, ça peut être intéressant de mettre en valeur les interventions de l'auteur de l'article (dépêche, billet...) qui a donné naissance aux discussions. Voir un [exemple ici](https://eischmann.wordpress.com/2017/04/10/netflix-blocks-fedora-users/#comments) sur Wordpress.
 
 
+Forums
+------
+
+Les forums sont des espaces permettant de s'adresser à la communauté du site, typiquement afin de soliciter leur avis sur un sujet particulier. Il pourrait également permettre à la communauté de discuter de sujets au fil de l'eau, sans réagir à un article donné.
+
+### Sondages
+
+Un sondage est une entrée de forum particulière puisqu'il comporte un questionnaire à choix multiples (QCM) et est ouvert aussi aux non-inscrits.
+
+### Notation
+
+Noter le message initial d'une discussion de forum est-il utile ? Noter les réponses peut aider à identifier les solutions les plus intéressantes au problème posé.
+
+
 Agenda
 ------
 
@@ -88,11 +108,12 @@ Dans cette section, les visiteurs pourront :
 - retrouver instantanément les prochains évènements prévus près de chez eux
 - visualiser les emplacements des évènements sur une carte
 
-Dans cette section, on pensait d'abord afficher les ressources de l'Agenda du Libre en plus de celles propres à LinuxFr. Gérer plusieurs sources de données dans le cas présent semble ajouter de la complexité sans ajouter de valeur. Au contraire, il serait intéressant que les évènements annoncés sur linuxfr.org soient remontés à l'Agenda du Libre. Il semblerait plus intéressant de se servir de l'Agenda du Libre comme unique source d'évènements.
+Dans cette section, on pensait d'abord afficher les ressources de l'Agenda du Libre en plus de celles propres à LinuxFr. Gérer plusieurs sources de données dans le cas présent semble ajouter de la complexité sans ajouter de valeur. Au contraire, il serait intéressant que les évènements annoncés sur linuxfr.org soient remontés à l'Agenda du Libre, et donc se servir de ce dernier comme unique source d'évènements.
 
 On ne sait pas dans quelle mesure l'intégration à l'Agenda du Libre est faisable techniquement (API ? transfert de fichiers .ics ?). Politiquement, cela n'est pas évident non plus. D'une part parce que nous n'avons pas trouvé de licence concernant les données de l'agendadulibre.org. D'autre part, les deux sites ont chacun leur propre politique de modération appliquée par des personnes différentes.
 
 Idéalement, proposer un nouvel évènement serait possible directement depuis LinuxFr, ou bien nous redirigerions vers le site de l'Agenda du Libre. Les bénéfices attendus sont les suivants :
+
 - les visiteurs de linuxfr auraient accès à un agenda du libre lisible et fonctionnel
 - l'agenda et son filtre géographique seraient une raison supplémentaire de créer un compte sur linuxfr
 - l'agenda du libre bénéficierait automatiquement des évènements remontés par linuxfr (sur lequel linuxfr n'effectuerait aucune modération)
@@ -118,14 +139,40 @@ Bandeau de navigation blanc et fond gris très léger sur toutes les pages. On u
 Pistes de réflexion
 -------------------
 
-Pour les nouveaux venus, c'est pas évident de comprendre qu'on peut publier directement un journal d'une part, mais que la publication de dépêche est soumise à modération d'autre part. Distinguer 4 phases : rédaction -> relecture -> modération -> publication ? On ne veut pas non plus donner une impression de lourdeur.
+### Modération
 
-Intégration à d'autres sites, en particulier :
+Pour les nouveaux venus, c'est pas évident de comprendre qu'on peut publier directement un journal d'une part, mais que la publication de dépêche est soumise à modération d'autre part.
+
+On pourrait distinguer plusieurs phases, par exemple 3 ou 4 :
+
+- rédaction -> relecture -> modération -> publication
+- création -> rédaction -> validation
+
+On ne veut pas non plus donner une impression de lourdeur.
+
+### Aiguillage
+
+La question d'où publier quoi se pose souvent, comme le montrent de nombreux débâts, par exemple concernant la longueur des dépêches ou les journaux hors-sujets. De même, lorsqu'on a une question, il peut être tentant de publier un journal plutôt qu'ouvrir une discussion sur le forum, peut-être parce que cela
+
+### Intégration
+
+On a discuté plus haut de l'intégration à l'Agenda du Libre. On pourrait envisager aussi l'intégration à d'autres sites, en particulier :
 
 - [Journal du Hacker](https://www.journalduhacker.net/)
-- [Agenda du Libre](http://www.agendadulibre.org/)
 
-Changer la notation des commentaires, pour aller vers un système à la Slashdot ? (All Insightful Informative Interesting Funny) ?
+### Bloquer les utilisateurs
+
+Dans les commentaires il y a des intervenants qui sont particulièrement pénibles, dont on aimerait ne plus voir aucun de leurs messages. Le système de karma n'est d'aucun remède. On peut envisager permettre aux utilisateurs de bloquer les personnes les plus insupportables. Pour éviter qu'un utilisateur ne voit jamais son karma baisser du fait que tout le monde l'a bloqué, on peut envisager lui retirer des points pour chaque blocage (par exemple, -20 pts par blocage).
+
+### Notation
+
+S'il peut inciter à publier pour marquer des points, le système de notation peut être perçu comme violent. On pourrait envisager remplacer la notation des commentaires, pour aller vers un système à la Slashdot. En associant des adjectifs à chaque commentaire, le système de slashdot permet de filtrer selon le ton des messages (All Insightful Informative Interesting Funny), plutôt que sur leur popularité.
+
+### Rubriques ou non ?
 
 Souhaite-t-on vraiment refondre les sections et non pas juste les mettre à la poubelle, si on a les tags ?
+
+### Illustrations
+
+En dépit de nos efforts pour inciter à illustrer les articles, il ne faut pas que l'absence d'illustration soit un point de blocage pour la publication. Ça peut valoir le coup de constituer une petite collection d'images libres pour chacune des rubriques. Ensuite, les modérateurs pourraient retrouver facilement une image pas totalement déconnectée du sujet.
 
