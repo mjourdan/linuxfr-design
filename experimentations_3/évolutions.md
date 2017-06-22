@@ -14,7 +14,7 @@ Concepts généraux
 Il paraît nécessaire de rebrasser tout ça vers des rubriques moins nombreuses. Ces rubriques devront être suffisament vastes pour qu'elles soient porteuses de sens et suffisamment diverses pour refléter la diversité des contenus présents sur le site. En gros, je vois ça comme un moyen de clarifier le positionnement de linuxfr.org sur la toile. Peut-être avez-vous des idées là-dessus, en attendant je verrais le classement suivant :
 
 - applications & services
-- distribution & bureaux
+- distributions & bureaux
 - culture & jeux
 - systèmes & réseaux
 - bidouille & développement
@@ -152,7 +152,11 @@ On ne veut pas non plus donner une impression de lourdeur.
 
 ### Aiguillage
 
-La question d'où publier quoi se pose souvent, comme le montrent de nombreux débâts, par exemple concernant la longueur des dépêches ou les journaux hors-sujets. De même, lorsqu'on a une question, il peut être tentant de publier un journal plutôt qu'ouvrir une discussion sur le forum, peut-être parce que cela
+La question d'où publier quoi se pose souvent, comme le montrent de nombreux débâts, par exemple concernant la longueur des dépêches ou les journaux hors-sujets. De même, lorsqu'on a une question, il peut être tentant de publier un journal plutôt qu'ouvrir une discussion sur le forum, peut-être parce que cela assure une meilleure visibilité ? D'autre part, le wiki ne semble pas énormément utilisé, peut-être parce que son objet n'est pas clair : s'agit-il d'expliquer le fonctionnement de LinuxFr.org ou bien de partager des connaissances sur des logiciels libres ?
+
+### Tags
+
+L'actuel système comporte des tags privés et des tags publics. Comment savoir, lorsque j'ajoute un tag, son périmètre de diffusion ? Quelle utilité d'avoir des tags juste pour soi ? Apparemment, la réponse à ces deux questions est la même : on considère un tag comme intéressant pour les visiteurs à partir du moment où il est affecté à un même contenu par différentes personnes. [D'après le wiki](https://linuxfr.org/wiki/tags).
 
 ### Intégration
 
