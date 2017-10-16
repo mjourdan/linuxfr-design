@@ -21,9 +21,21 @@ Il paraît nécessaire de rebrasser tout ça vers des rubriques moins nombreuses
 - économie & entreprise
 - revue de presse
 
+> Ça fait beaucoup de &
+
 ### Tags
 
 Les tags servent à identifier les différentes thématiques abordées par un même article. Ils servent à faire des passerelles entre des contenus répartis dans différentes sections. Ils ont donc une utilité un peu différente de ces dernières. C'est pas choquant qu'on en ait un nombre élevé.
+
+L'actuel système comporte des tags privés et des tags publics. Comment savoir, lorsque j'ajoute un tag, son périmètre de diffusion ? Quelle utilité d'avoir des tags juste pour soi ?
+
+> Apparemment, la réponse à ces deux questions est la même : on considère un tag comme intéressant pour les visiteurs à partir du moment où il est affecté à un même contenu par différentes personnes. [D'après le wiki](https://linuxfr.org/wiki/tags).
+
+### Rubriques ou non ?
+
+Souhaite-t-on vraiment refondre les sections et non pas juste les mettre à la poubelle, si on a les tags ?
+
+> Les « sections » ont un autre intérêt indirect que la classification : elles amènent une image/un logo pour égayer un peu, et le fait d'en avoir beaucoup permet de varier l'image.
 
 ### Blogs
 
@@ -79,6 +91,8 @@ On utilise le même mécanisme de commentaire aussi bien pour les dépêches, qu
 
 Lorsqu'un article contient des coquilles, c'est souvent qu'on voit toute une série de commentaires pour les signaler. Il serait intéressant de permettre de les signaler aux modérateurs de manière discrète, sans polluer les fils de discussions. J'essaierai d'intégrer ça dans les prochains dessins.
 
+> Voir l'[entrée de suivi](https://linuxfr.org/suivi/ajouter-un-bouton-signaler-un-truc) et l'approche de [NextInpact](https://nextinpact.com)
+
 ### Identification de l'auteur de l'article
 
 Dans les discussions, ça peut être intéressant de mettre en valeur les interventions de l'auteur de l'article (dépêche, billet...) qui a donné naissance aux discussions. Voir un [exemple ici](https://eischmann.wordpress.com/2017/04/10/netflix-blocks-fedora-users/#comments) sur Wordpress.
@@ -123,6 +137,10 @@ TODO :
 - suggérer à l'agendadulibre.org de diffuser ses données sous licence odbl ?
 - faisabilité ?
 
+> Une autre piste envisagée est au contraire la disparition totale de la notion d'évènement.
+> Souci de ne pas voler d'audience.
+> L'agenda du libre intègre une fonctionnalité de soumission de dépêche.
+
 
 Style
 -----
@@ -134,6 +152,12 @@ Pour les contenus, on pourrait utilise la police système par défaut du poste c
 ### Palette de couleurs
 
 Bandeau de navigation blanc et fond gris très léger sur toutes les pages. On utilise un bleu sombre pour les rubriques, on rappelle le jaune du logo, et on utilise plusieurs teintes de bleu.
+
+> gare à ne pas remplacé le côté «fouilli sympathique» et chaleureux, par une austérité froide
+
+### Illustrations
+
+En dépit de nos efforts pour inciter à illustrer les articles, il ne faut pas que l'absence d'illustration soit un point de blocage pour la publication. Ça peut valoir le coup de constituer une petite collection d'images libres pour chacune des rubriques. Ensuite, les modérateurs pourraient retrouver facilement une image pas totalement déconnectée du sujet.
 
 
 Pistes de réflexion
@@ -154,9 +178,8 @@ On ne veut pas non plus donner une impression de lourdeur.
 
 La question d'où publier quoi se pose souvent, comme le montrent de nombreux débâts, par exemple concernant la longueur des dépêches ou les journaux hors-sujets. De même, lorsqu'on a une question, il peut être tentant de publier un journal plutôt qu'ouvrir une discussion sur le forum, peut-être parce que cela assure une meilleure visibilité ? D'autre part, le wiki ne semble pas énormément utilisé, peut-être parce que son objet n'est pas clair : s'agit-il d'expliquer le fonctionnement de LinuxFr.org ou bien de partager des connaissances sur des logiciels libres ?
 
-### Tags
+> Les données montrent que le forum et le wiki sont largement moins utilisés que les autres sections.
 
-L'actuel système comporte des tags privés et des tags publics. Comment savoir, lorsque j'ajoute un tag, son périmètre de diffusion ? Quelle utilité d'avoir des tags juste pour soi ? Apparemment, la réponse à ces deux questions est la même : on considère un tag comme intéressant pour les visiteurs à partir du moment où il est affecté à un même contenu par différentes personnes. [D'après le wiki](https://linuxfr.org/wiki/tags).
 
 ### Intégration
 
@@ -168,15 +191,11 @@ On a discuté plus haut de l'intégration à l'Agenda du Libre. On pourrait envi
 
 Dans les commentaires il y a des intervenants qui sont particulièrement pénibles, dont on aimerait ne plus voir aucun de leurs messages. Le système de karma n'est d'aucun remède. On peut envisager permettre aux utilisateurs de bloquer les personnes les plus insupportables. Pour éviter qu'un utilisateur ne voit jamais son karma baisser du fait que tout le monde l'a bloqué, on peut envisager lui retirer des points pour chaque blocage (par exemple, -20 pts par blocage).
 
+> Fonction à désactiver pour les modérateurs !
+
 ### Notation
 
 S'il peut inciter à publier pour marquer des points, le système de notation peut être perçu comme violent. On pourrait envisager remplacer la notation des commentaires, pour aller vers un système à la Slashdot. En associant des adjectifs à chaque commentaire, le système de slashdot permet de filtrer selon le ton des messages (All Insightful Informative Interesting Funny), plutôt que sur leur popularité.
 
-### Rubriques ou non ?
-
-Souhaite-t-on vraiment refondre les sections et non pas juste les mettre à la poubelle, si on a les tags ?
-
-### Illustrations
-
-En dépit de nos efforts pour inciter à illustrer les articles, il ne faut pas que l'absence d'illustration soit un point de blocage pour la publication. Ça peut valoir le coup de constituer une petite collection d'images libres pour chacune des rubriques. Ensuite, les modérateurs pourraient retrouver facilement une image pas totalement déconnectée du sujet.
+> L'approche Slashdot n'est adaptée à notre cas : on a bien moins de visiteurs et de contenus.
 
